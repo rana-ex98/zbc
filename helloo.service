@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/root/.nvm/versions/node/v16.13.2/bin/node /root/zbc/index.js
+ExecStart=/root/zbc/start.sh
 
 [Install]
 WantedBy=multi-user.target
